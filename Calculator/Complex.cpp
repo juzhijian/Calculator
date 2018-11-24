@@ -222,7 +222,7 @@ void Complex::setComplex(QString str)
 {
     double real,imag;
     if(str=="0"){
-       *this = 0;
+        *this = 0;
         return ;
     }
     if(!str.contains('i'))
